@@ -1,7 +1,7 @@
 #include <stdio.h>
-  #include <stdlib.h>
-  #include <stdbool.h>
- #include <string.h>
+#include <stdlib.h>
+#include <stdbool.h>
+#include <string.h>
 void nhapMotChuoiDemSoTu() {
      char chuoi[255];
      printf("Nhap vao mot chuoi\n");
