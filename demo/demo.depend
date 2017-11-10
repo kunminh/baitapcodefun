@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1500955565 source:c:\codefun\github\baitapcodefun\demo\main.c
+	<stdlib.h>
+	<stdio.h>
+

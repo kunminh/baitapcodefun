@@ -99,17 +99,29 @@ void chuCaiNamGiua()
 	scanf("%c",&b);
 	printf("%d",a-b-1);
 }
-//016
-void lailatamgiac
+//017
+void lailatamgiac()
+{
+	int a,b,c;
+	scanf("%d%d%d",&a,&b,&c);
+	if((a+b)>=c||(a+c)>=b||(b+c)>=a)
+	{
+		printf("yes")
+	}
+	else
+	{
+		printf("no")
+	}
+}
 
 	 
 
 int main(){
-/*	soGapDoi();
+	soGapDoi();
 	phepTinh1();
 	kyTuMoi();
 	soSoHang();
-	soSoHang2();*/
+	soSoHang2();
 	chuCaiNamGiua();
 	return 0;
 }

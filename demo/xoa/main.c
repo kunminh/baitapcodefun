@@ -1,8 +1,7 @@
 #include<stdio.h>
 int main()
 {
-	
-	int source[100] = {1, 2, 3, 4, 5, 6};
+	int source[] = {1, 2, 3, 4, 5, 6};
 	int dest[]={10, 20, 30};
 	int N =6;// sizeof(source)/sizeof(source[0]);
 	int M = sizeof(dest)/sizeof(dest[0]);
@@ -23,5 +22,4 @@ int main()
 	}
 
 }
-
 
